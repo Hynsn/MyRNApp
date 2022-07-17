@@ -1,4 +1,4 @@
-package com.hynson.demo
+package com.hynson.rnlib
 
 import android.app.Activity
 import android.content.Intent

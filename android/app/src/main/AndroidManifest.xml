@@ -15,7 +15,7 @@
         android:usesCleartextTraffic="true"
         tools:targetApi="28">
         <activity
-            android:name="com.example.demo.com.hynson.demo.MainActivity"
+            android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -23,14 +23,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
-        <activity
-            android:name="com.example.demo.com.hynson.demo.MyReactActivity"
-            android:label="@string/app_name"
-            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
-    </application>
 
-    <uses-permission android:name="android.permission.INTERNET" />
-    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    </application>
 
 </manifest>

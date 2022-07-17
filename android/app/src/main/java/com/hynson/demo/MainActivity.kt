@@ -12,7 +12,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         findViewById<Button>(R.id.btn_rn).setOnClickListener {
-            startActivity(Intent(this, MyReactActivity::class.java))
+            startActivity(Intent(this, com.hynson.rnlib.MyReactActivity::class.java))
         }
     }
 }
