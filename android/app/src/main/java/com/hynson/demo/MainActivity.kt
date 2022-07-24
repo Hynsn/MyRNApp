@@ -10,6 +10,7 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+//        val resid = R.drawable.image_icon_add
 
         findViewById<Button>(R.id.btn_rn).setOnClickListener {
             startActivity(Intent(this, com.hynson.rnlib.MyReactActivity::class.java))

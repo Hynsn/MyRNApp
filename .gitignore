@@ -30,3 +30,4 @@ google-services.json
 
 # Android Profiling
 *.hprof
+android/app/src/main/res/drawable-rn/image_icon_add.png
