@@ -1,4 +1,4 @@
-package com.hynson.demo
+package com.hynson.rn
 
 import org.junit.Test
 
